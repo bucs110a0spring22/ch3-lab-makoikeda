@@ -18,9 +18,30 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. your code goes here
+for i in range(10):
+  a = random.randrange(1,100)
+  leonardo.forward(a)
+  b = random.randrange(1,100)
+  michelangelo.forward(b)
 
+
+
+michelangelo.up()
+leonardo.up()
+michelangelo.goto(-100, 20)
+leonardo.goto(-100, -20)
+michelangelo.down()
+leonardo.down()
 
 # Part B - complete part B here
-
+for sides in (3,4,6,9,12):
+# sides = 3
+  for i in range(sides):
+    michelangelo.forward(50)
+    michelangelo.left(360/sides)
+    leonardo.forward(50)
+    leonardo.right(360/sides)
+  leonardo.clear()
+  michelangelo.clear()
 
 window.exitonclick()
