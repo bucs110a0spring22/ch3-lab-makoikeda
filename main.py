@@ -19,10 +19,10 @@ leonardo.goto(-100,-20)
 
 ## 5. your code goes here
 for i in range(10):
-  a = random.randrange(1,100)
-  leonardo.forward(a)
-  b = random.randrange(1,100)
-  michelangelo.forward(b)
+  leonardodistance = random.randrange(1,100)
+  leonardo.forward(leonardodistance)
+  michelangelodistance = random.randrange(1,100)
+  michelangelo.forward(michelangelodistance)
 
 
 
@@ -34,7 +34,7 @@ michelangelo.down()
 leonardo.down()
 
 # Part B - complete part B here
-for sides in (3,4,6,9,12):
+for sides in [3,4,6,9,12]:
   for i in range(sides):
     michelangelo.forward(50)
     michelangelo.left(360/sides)

@@ -11,9 +11,9 @@ _Replace anything surrounded by the `< >` symbols._
 I used the module 'turtle' and 'random' to conduct a race between two turtles. Also, I made use of loop to effeciently draw shapes.
 
 ## GRACE DAYS
-Grace days used for this assignment: 0
+Grace days used for this assignment: 1
 
-Grace days remaining: 5/5
+Grace days remaining: 4/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  N/A
