@@ -35,7 +35,6 @@ leonardo.down()
 
 # Part B - complete part B here
 for sides in (3,4,6,9,12):
-# sides = 3
   for i in range(sides):
     michelangelo.forward(50)
     michelangelo.left(360/sides)
